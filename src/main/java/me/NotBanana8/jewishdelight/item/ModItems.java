@@ -19,8 +19,6 @@ public class ModItems {
             .food(new FoodProperties.Builder().nutrition(1).build())));
 
 
-    public static final RegistryObject<Item> KIPA = ITEMS.register("kipa",()-> new Kipa());
-
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
